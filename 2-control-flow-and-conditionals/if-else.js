@@ -83,7 +83,7 @@ if (flowC >= flowB) {
 }
 
 // create a variable flowAnswerB
-
+var flowAnswerB;
 // if flowB is strictly equal (the same value and type) to flowD assign flowAnswerB true.
 
 
