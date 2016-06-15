@@ -119,7 +119,20 @@ understand what we're looking for!
   Use the next section for 'variables and arithmetic operators.'
   The first two tests pass. Discuss why with your partner.
 */
+
 var foo;
+var bar = '0';
+var num1 = 10;
+var num2 = 20;
+var total = num1 + num2;
+var num3 = 5;
+var minus = total - num3;
+var divided = total / num3;
+var remainder = 2;
+var remainderToString = '2';
+
+
+
 
 
 
@@ -130,11 +143,13 @@ var foo;
   Use this next section for 'comparison operators'.
   Use the variables from the last section and follow the prompts below.
 */
-
-
-
-
-
+var firstResult = num1 > num3;
+var secondResult = total - num2 == num1;
+var numberAsString = '10';
+var equals = num1 == numberAsString;
+var deepEquals = num1 === numberAsString;
+var thirdResult = deepEquals < num1;
+var fourthResult = num1 <= numberAsString;
 
 /*
   Use this next section for operator precedence. 
@@ -148,15 +163,15 @@ var foo;
 // The first one is done for you as an example.
 var a = true; // (10 * 10) == '100'
 
-var b; // 2 * (10 / 2) + 2;
+var b = 12; // 2 * (10 / 2) + 2;
 
-var c; // 8 + 1 * 5 - 4 / 2 <= 9;
+var c = false; // 8 + 1 * 5 - 4 / 2 <= 9;
 
-var d; // true === 'true'
+var d = false; // true === 'true'
 
-var e; // 1 == true
+var e = true; // 1 == true
 
-var f; // 1 === true
+var f = false; // 1 === true
 
 
 
