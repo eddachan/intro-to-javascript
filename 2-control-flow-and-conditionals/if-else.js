@@ -119,14 +119,16 @@ var flowAnswerF = flowE * flowF;
 var flowAnswerG;
 // flowAnswerG should hold the greater of flowAnswerF, and flowG.
 // if they have the same value, then flowAnswerG should have a value of true.
-if (flowAnswerF == flowG) {
+if (flowAnswer F > flowG)
+else if (flowAnswer G = flowG)
+else {
   flowAnswerG = true;
-} 
+    }
 
 // create a variable called flowAnswerH.
 var flowAnswerH;
 // assign it the value of flowG * negative one.
-
+var flowAnswerH = (flowG * -1)
 // create a varibale called flowAnswerI
 
 // if flowAnswerF is greater than flowAnswerG flowAnswerI gets true.
