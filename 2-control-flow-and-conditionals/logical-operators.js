@@ -23,7 +23,7 @@
 
   The above code is checking if the variables once and twice are truthy.
   Since they both have a value (which is not
-  null or undefinded) we get the message in the console. Neat, huh?
+  null or undefined) we get the message in the console. Neat, huh?
 
 ---------------------------------------------
 
@@ -82,36 +82,59 @@
 
 
 // declare a variable called lOne
-
+var lOne;
 // assign lOne a value of true
-
+var lOne = true;
 // write an if/else statement that declares a variable named lAOne and assigns it a value of 
-// true if lOne is not true, and false otherwise.
-
+// true if lAOne is not true, and false otherwise.
+var lAOne;
+if (lAOne = true) {
+  lAOne = false;
+} else {
+  lAOne = true;
+}
 
 // declare a variable called lTwo
-
+var lTwo;
 // lTwo should get true if lOne or LAOne is true
-
+if (lOne || lAOne) {
+  lTwo = true;
+}
 // declare a variable called lThree
-
+var lThree;
 // Assign lThree a value of 100
-
+var lThree = 100;
 // declare a variable called lATwo.
-
+var lATwo;
 // if lThree is less than lOne and also less than LAOne lATwo should get true. Otherwise lATwo should get false.
-
+if (lThree < lOne && lThree <lAone){
+  lATwo = true;
+} else {
+  lATwo = false;
+}
 
 // declare a variable called lFour
-
+var lFour;
 // Still using if/else if/else statements, assign lFour a value of a string with the word true in it 
 // if either lATwo or lOne is true.
+if (lATwo || lOne){
+  lFour = 'true';
+  } else {
+    lFour = 'false';
+  }
 // if both are false, assign lFour a value of a string with the word false in it.
 
 
 // declare a variable called lFive
+var lFive;
 // this one will be tricky. Ready?
 // write an if statement that checks if lFive is not equal to undefined.
+if (lFive!= undefined){
+  lFive = 5;
+} else {
+  lFive = 10;
+}
+
 // If lFive is not equal to undefined, then assign it the number 5.
 // If lFive is undefined, then assign it the number 10.
 
@@ -123,6 +146,7 @@
 
 
 // declare a variable called lSix
+var lSix;
 // here are your conditions to check (I'm leaving out the words if, so as not to give you an extra hint :)
 // Remember, you can group conditions to check within the parentheses using paretheses. For example:
 /* 
@@ -151,5 +175,15 @@
 // is 25 + 25 equal to 50 and does lAOne not equal true?
   // then assign lSix a value of 252550
 // otherwise assign lSix a value of 1010
-
+if (lATwo = lThree){
+  lSix = 23;
+} else if (lOne = lAOne) {
+  lSix = 11;
+} else if (lTwo = lFour) {
+  lSix = 24;
+} else if (lFour = lOne) {
+  lSix = 41;
+} else if (lFive + 90 = 110) {
+  lSix = 110;
+} else if ((24 + 26 ))
 

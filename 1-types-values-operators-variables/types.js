@@ -16,7 +16,6 @@ ourTypes = { //This is a single line comment.
     
     And here's a brief reminder (remember, we are focusing on the ES5 spec, as ES6 hasn't been fully implemented as a standard in most browsers yet. We are therefore ignoring ES6 specifics.)
     In Javascript there are 5 Primitive Values.
-
       Undefined - a variable that has not been assigned a value             - undefined
 
       Null - the intentional absence of a value, not the same as undefined! - null
@@ -102,12 +101,8 @@ ourTypes = { //This is a single line comment.
 
   aNumber: 5555,
 };
-<<<<<<< HEAD
 var example;
 example = 'Javascript is fun!';
-=======
-
->>>>>>> b9ad770c33338725337e9e3991ea5d7bbd47baa8
 /******************
 Now for the fun bit! There was some code to get you started on the last section.
 For this section, read the tests (either in the test/spec.js file, or right there in the browser). Figure out what the tests are looking for, and make them pass.
@@ -177,6 +172,4 @@ var d = false; // true === 'true'
 var e = true; // 1 == true
 
 var f = false; // 1 === true
-
-
 
