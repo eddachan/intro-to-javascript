@@ -185,5 +185,11 @@ if (lATwo = lThree){
   lSix = 41;
 } else if (lFive + 90 = 110) {
   lSix = 110;
-} else if ((24 + 26 ))
+} else if ((24 + 26 = 50)&&(lOne = false)) {
+  lSix = 5050;
+} else if ((25 + 25 = 50)&&(lAOne!=true)) {
+  lSix = 252550;
+} else {
+  lSix = 1010;
+}
 
