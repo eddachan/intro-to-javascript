@@ -79,7 +79,17 @@
 // Check the tests to find out what variables are being tested, and what value they need to have.
 // Use switch statements, check whatever conditions you'd like.
 // Make sure you assign the correct variable the correct value!
+var switch1 = 1;
+var switch2 = 2;
+var switch3 = 3;
+var switch4 = 4;
 
+var switch5 = (switch3 >= switch1);
+var switch6 = switch4%switch3;
+var switch7 = true || false;
 
-
-
+var switchExample = 'true';
+var switchA = '';
+var switchB = false;
+var switchC = true;
+var switchD = -1;

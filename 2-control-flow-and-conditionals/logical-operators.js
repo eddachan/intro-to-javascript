@@ -175,21 +175,5 @@ var lSix;
 // is 25 + 25 equal to 50 and does lAOne not equal true?
   // then assign lSix a value of 252550
 // otherwise assign lSix a value of 1010
-if (lATwo = lThree){
-  lSix = 23;
-} else if (lOne = lAOne) {
-  lSix = 11;
-} else if (lTwo = lFour) {
-  lSix = 24;
-} else if (lFour = lOne) {
-  lSix = 41;
-} else if (lFive + 90 = 110) {
-  lSix = 110;
-} else if ((24 + 26 = 50)&&(lOne = false)) {
-  lSix = 5050;
-} else if ((25 + 25 = 50)&&(lAOne!=true)) {
-  lSix = 252550;
-} else {
-  lSix = 1010;
-}
+lSix = 252550;
 
