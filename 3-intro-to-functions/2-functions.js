@@ -47,5 +47,26 @@
 
 // If you need a hand making the tests pass, give a holler. Functions can be tricky to get down, but once you get them you'll love them.
 
+function add(param1,param2) {
+  return param1 + param2;
+  var scope1 = 12;
+};
 
+function square(x) {
+  return x*x;
+};
 
+function thrice(a) {
+  return a = 10;
+};
+
+function myFunc(name1,name2,name3) {
+  return 'name1 + name2 + name3';
+  return name1 = 'Edda';
+  return name2 = 'Magaret';
+  return name3 = 'Ben';
+};
+
+function myNewFunc (myFavNum) {
+  return myFavNum = y;
+};

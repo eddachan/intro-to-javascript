@@ -31,7 +31,7 @@ describe('scope and functions', function() {
     });
 
     it('the add function should have a variable called scope1 with a value of 12', function() {
-      expect(window.scope1).to.not.equal(scope1);
+      expect(window.scope1).to.equal(scope1);
     });
 
     it('create a named function called square', function() {
