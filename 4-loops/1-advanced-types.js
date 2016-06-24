@@ -52,14 +52,17 @@ var testString = 'this is a string';
 
 // For this next section, access the values from testString and testArray and assign them to the variables described in the tests.
 
+var arr = [0,1];
+var arr1 = [0,1];
+var arr2 = [0,1,2,3,4];
 
-var val1;
-var val2;
-var val3;
-var val4;
-var val5;
-var val6;
-var val7;
+var val1 = testArray [0];
+var val2 = testString [2];
+var val3 = testArray [6];
+var val4 = testString [12];
+var val5 = testArray [4];
+var val6 = testArray [3];
+var val7 = testString [6];
 
 
 /*
@@ -104,7 +107,16 @@ var val7;
 // myMusic with a value of an array that has your four favorite bands as values.
 // myFunc with a value of a function, which when invoked returns true.
 
-
+var myObj = {
+  myName: 'Edda',
+  myCity: 'Daly City',
+  myAge: 24,
+  myTruth: true,
+  myMusic: ['Ludovico Einaudi', 'Big Bang', 'c', 'd'],
+  myFunc: function myFunc(){
+    return true;
+  }
+};
 
 
 
@@ -148,7 +160,11 @@ var val7;
 
 // Let the computer do the work for you!
 
-
+var myCity = myObj.myCity;
+var myName = myObj.myName;
+var myAge = myObj.myAge;
+var myMusic = myObj.myMusic;
+var myFunc = myObj.myFunc;
 
 
 

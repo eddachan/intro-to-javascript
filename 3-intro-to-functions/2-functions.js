@@ -56,8 +56,9 @@ function square(x) {
   return x*x;
 };
 
-function thrice(a) {
+function thrice() {
   return a = 10;
+  var a;
 };
 
 function myFunc(name1,name2,name3) {
@@ -67,6 +68,7 @@ function myFunc(name1,name2,name3) {
   return name3 = 'Ben';
 };
 
-function myNewFunc (myFavNum) {
-  return myFavNum = y;
+function myNewFunc() {
+  var myFaveNum = 5;
+  return myFaveNum;
 };
